@@ -1,7 +1,7 @@
 import 'package:cos_assignment/core/util/validators.dart';
-import 'package:cos_assignment/data/repositories/vehicles/vehicles_repository.dart';
 import 'package:cos_assignment/domain/models/enums.dart';
 import 'package:cos_assignment/domain/models/vehicles.dart';
+import 'package:cos_assignment/domain/repositories/vehicles/vehicles_repository.dart';
 import 'package:cos_assignment/presentation/views/screens/vehicles/state/vehicles_screen_state.dart';
 import 'package:dartz/dartz.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';

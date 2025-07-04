@@ -47,12 +47,20 @@ cd cos_assignment
 flutter pub get
 ```
 
-4. Run the application:
+4. Run the build_runner:
+
+Note: This step can be skipped, it's only required when 
+you change the annotated code
+
+```bash
+flutter pub run build_runner build --delete-conflicting-outputs
+```
+
+5. Run the application:
 ```bash
 flutter run
 ```
-5. Run Tests:
+6. Run Tests:
 ```bash
 flutter test
 ```
-

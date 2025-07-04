@@ -1,7 +1,7 @@
 import 'package:cos_assignment/core/auth/auth.dart';
 import 'package:cos_assignment/core/util/validators.dart';
-import 'package:cos_assignment/data/repositories/user/user_repository.dart';
 import 'package:cos_assignment/domain/models/user.dart';
+import 'package:cos_assignment/domain/repositories/user/user_repository.dart';
 import 'package:dartz/dartz.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 import '../state/signup_screen_state.dart';

@@ -8,7 +8,16 @@ part of 'signup_view_model.dart';
 
 String _$signUpScreenVMHash() => r'9e4dfbd04336e46c26f88d8c01ea4e0397251d6b';
 
-/// See also [SignUpScreenVM].
+/// The `SignUpScreenVM` is a view model class that manages the state of the signup screen.
+///
+/// It provides the following functionality:
+///
+/// - **Email Validation**: Validates the email input using the [Validators.validateEmail] method.
+/// - **User Registration**: Registers a new user using the [saveUser] method.
+/// - **User Error Handling**: Handles errors that may occur during the user registration operation.
+/// - **User State Management**: Manages the state of the signup screen using the [state] property.
+///
+/// Copied from [SignUpScreenVM].
 @ProviderFor(SignUpScreenVM)
 final signUpScreenVMProvider =
     AutoDisposeNotifierProvider<SignUpScreenVM, SignUpScreenState>.internal(
