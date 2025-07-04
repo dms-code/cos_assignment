@@ -1,16 +1,58 @@
-# cos_assignment
+# CarOnSale Assignment
 
-A new Flutter project.
+Flutter application for CarOnSale assignment.
+
+## Implemented Features:
+
+✅ User enters unique identification data
+✅ Identification data is saved locally
+✅ Identification screen is automatically skipped on future app runs
+✅ VIN input from the user
+✅ Request made using CosChallenge.httpClient
+✅ Handled network errors
+✅ Handled deserialization (JSON) errors
+✅ Handled server errors (unexpected status codes)
+✅ Clear error messages displayed to the user
+✅ Suggestions shown on how to fix the errors
+✅ VIN input is validated (e.g. length, allowed characters)
+✅ Handled response with status code 300
+✅ Displayed multiple vehicle options to the user
+✅ Displayed the similarity score for each vehicle option
+✅ Successfully received data is cached locally
+✅ Automatic navigation after saving data
+✅ Previously fetched data is shown if a later request fails (offline cache/fallback)
+✅ Displayed auction data: price, model, and UUID
+✅ Displayed feedback (positive or negative) from the API
+✅ Clean and organized code
+✅ Clear separation of concerns (architecture)
+✅ Functional UI with good user experience (UX)
+✅ Used only essential dependencies
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To run the application, follow these steps:
 
-A few resources to get you started if this is your first Flutter project:
+1. Clone the repository:
+```bash
+https://github.com/mobisec/caronsale_assignment.git
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+2. Navigate to the project directory:
+```bash
+cd cos_assignment
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+3. Install dependencies:
+```bash
+flutter pub get
+```
+
+4. Run the application:
+```bash
+flutter run
+```
+5. Run Tests:
+```bash
+flutter test
+```
+
