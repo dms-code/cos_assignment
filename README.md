@@ -34,7 +34,7 @@ To run the application, follow these steps:
 
 1. Clone the repository:
 ```bash
-https://github.com/mobisec/caronsale_assignment.git
+https://github.com/dms-code/caronsale_assignment.git
 ```
 
 2. Navigate to the project directory:
